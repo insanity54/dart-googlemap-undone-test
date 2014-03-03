@@ -1,0 +1,5 @@
+name: rift
+description: A sample web application
+dependencies:
+  google_maps: '>=2.0.0 <3.0.0'
+  undone: any

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Rift</title>
+    <link rel="stylesheet" href="rift.css">
+    <!--<link rel="import" href="grim-toolbar.html">-->
+    
+    <script src="packages/browser/dart.js"></script>
+  </head>
+  <body>
+    <h1>Rift</h1>
+    
+    <toolbar></toolbar>
+    <div id="controls">
+      <button id='undo'>Undo</button>
+      <button id='redo'>Redo</button>
+      <button id='delete'>Delete All</button>
+    </div>
+    <div class="clear"></div>
+    
+    <div id="map-canvas"></div>
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=drawing"></script>
+    
+    <script type="application/dart" src="rift.dart"></script>
+    
+    <script src="packages/browser/interop.js"></script>
+  </body>
+</html>
